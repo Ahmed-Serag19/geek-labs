@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
+import { Link, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Dashboard from './pages/Dashboard';
 import Alerts from './pages/Alerts';
@@ -21,7 +21,21 @@ function App() {
   );
 }
 const Home = () => {
-  return <h1 className="text-white">Home</h1>;
+  return (
+    <>
+      <div className="flex justify-center items-center flex-col">
+        <h1 className="text-white text-4xl flex justify-center items-center">
+          Home
+        </h1>
+        <Link
+          to="/dashboard"
+          className="btn bg-orange-600  text-white p-3 mt-5 rounded"
+        >
+          <button>Dashboard</button>
+        </Link>
+      </div>
+    </>
+  );
 };
 
 export const Trading = () => {

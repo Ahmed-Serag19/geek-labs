@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { useState } from 'react';
-import InputIcon from '../assets/Vector.png';
+import InputIcon from '/assets/Vector.png';
 // import Checkmark from '../assets/checkmark.png';
 
 const Dropdown = ({

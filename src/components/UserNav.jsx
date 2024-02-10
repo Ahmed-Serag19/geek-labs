@@ -1,6 +1,6 @@
 import { user } from '../utils/index';
-import Bell from '../assets/bell-icon.png';
-import More from '../assets/More.png';
+import Bell from '/assets/bell-icon.png';
+import More from '/assets/More.png';
 
 const UserNav = () => {
   // im just going to pretend that this is a reusable component of users and

@@ -2,10 +2,10 @@
 import PropTypes from 'prop-types';
 import Box from '@mui/material/Box';
 import Divider from '@mui/material/Divider';
-import Ticker from '../assets/ticker 1.png';
-import Risk from '../assets/risk 1.png';
-import Contract from '../assets/contract 1.png';
-import Volume from '../assets/volume 1.png';
+import Ticker from '/assets/ticker 1.png';
+import Risk from '/assets/risk 1.png';
+import Contract from '/assets/contract 1.png';
+import Volume from '/assets/volume 1.png';
 const AlertsBody = ({ alerts }) => {
   // const [expandedAlert, setExpandedAlert] = useState(null);
 
